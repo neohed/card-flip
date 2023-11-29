@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./App.css";
 import Card1 from "./Card1";
 import Card2 from "./Card2";
 import Card3 from "./Card3";
+import "./App.css";
 
 function RenderCard(cardNumber, handleFlip, cardFaceClass) {
     switch (cardNumber) {
